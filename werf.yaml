@@ -1,0 +1,8 @@
+configVersion: 1
+project: shell-operator-demo
+---
+image: operator
+from: flant/shell-operator:latest
+git:
+- add: /hooks
+  to: /hooks
